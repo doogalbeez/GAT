@@ -36,7 +36,7 @@ Function Get-ProfileBanner {
             Write-Host -Object ("#lllll.    ;lllllllllllll#") -NoNewline -ForegroundColor Cyan
             Write-Host -Object ("    Shell: ") -NoNewline
             Write-Host -Object ("Powershell $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)") -ForegroundColor Yellow
-            Write-Host -Object ("#lllll   .lll       lllll#") -NoNewline -ForegroundColor Cyan
+            Write-Host -Object ("#lllll   .lllllllllllllll#") -NoNewline -ForegroundColor Cyan
             Write-Host -Object ("    Memory: ") -NoNewline
             Write-Host -Object ("$([math]::round($ComputerInfo.OsFreePhysicalMemory / 1MB, 2))GB/$($ComputerInfo.CsPhyicallyInstalledMemory / 1MB)GB") -ForegroundColor Yellow
             Write-Host -Object ("##########################") -ForegroundColor Cyan
